@@ -1,0 +1,183 @@
+body
+ {
+    background : url(images/bg.jpg);
+}
+.site { 
+    font-family: "Sofia", sans-serif;
+}
+.navbar-brand {
+
+    font-family: "Sofia", sans-serif;
+    text-shadow:2px 2px  rgb(199, 181, 18);
+  
+  
+}
+.section1 {
+    height: 500px;
+    
+}
+.site ul li{ width: 500px ;
+margin-left: 20px;}
+
+.site ul li a{
+    color: rgb(61, 60, 61);
+    background: #eee;
+    font-size: 25px;
+}
+.site h3 { font-size: 30px;
+    margin-left: 30px;
+}
+
+ 
+
+.form-group { width: 200px; }
+
+ .slider img {
+ width: 100%;
+height: 100%;
+border-radius: 10px;
+padding-right: 30px;
+padding-top: 70px;
+margin-bottom: 20px;
+
+}
+
+.slider
+{position :relative;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;}
+.slides {
+ width: 500%;
+height: 400px;
+display: flex;
+
+}
+.flex-container {
+    display: flex;
+  
+  }
+  
+  .flex-container > div {
+ 
+    width:50%;
+    height:50%; 
+    align-items: center;
+   margin-left: 30px;
+  }
+  .slides input{ display: none;}
+  .slide { 
+      width: 20%;
+transition: 2s;}
+
+
+.navigation-manual {
+
+width: 500px; 
+margin-top: 1px;
+display: flex;
+position: relative;
+
+}
+
+.manual-btn { border: 2px solid ;
+padding: 3px;
+border-radius: 10px;
+cursor: pointer;
+transition: 1s;
+margin-top: 10px;
+}
+.manual-btn:first-child  {margin-left: 200px;
+
+}
+.manual-btn:not(:last-child) { margin-right: 40px;
+   
+}
+
+.manual-btn:hover{background: rgba(198, 83, 202, 0.836);}
+#radio1 :checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+#radio5:checked ~ .first{
+    margin-left: -80%;
+}
+.contacter{ background-color: rgb(12, 9, 12);
+    text-align: center;
+color: rgb(247, 247, 234);}
+    .contacter .btn{ margin-bottom: 10px;}
+footer{
+text-align: center;
+}
+/*----Cart ------*/
+
+.cart-page{
+    margin: 80px auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-MakeUp{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: rosybrown;
+    font-weight: normal;
+}
+
+td{
+    padding: 10px 5px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: violet;
+    font-size: 12px;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid rosybrown ;
+    width: 100%;
+    max-width: 400px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}

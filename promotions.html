@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>flash promo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <script src="java.js"></script>
+</head>
+
+<body>
+<header class="container-fluid">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand"><span class="glyphicon glyphicon-shopping-cart"></span>  FLASH PROMO</a>
+    </div>
+    <form class="navbar-form navbar-left" >
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Que cherchez-vous ?" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+       <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#1" data-toggle="tab"> <span class="glyphicon glyphicon-home"></span>  Accueil</a></li>
+       <li><a href="#2" data-toggle="tab"><span class="glyphicon glyphicon-user"></span> Inscrivez-vous</a></li>
+       <li><a href="#3" data-toggle="tab"><span class="glyphicon glyphicon-log-in"></span> Connecter</a></li>
+       <li><a href="#4" data-toggle="tab"><span class="glyphicon glyphicon-shopping-cart"></span> Panier</a></li>
+        </ul>
+  </div>
+</nav>
+</header>
+<section class="section1">
+<div class="tab-content">
+  
+
+  <div class="tab-pane active" id="1">
+    <div class="flex-container">
+          <div class="container site">
+        
+       
+            <h3><span class="glyphicon glyphicon-th-list"></span>  Nos Catégories</h3>
+             <ul class="nav nav-pills nav-stacked">
+                   <li ><a href="#6" data-toggle="tab2"><span class="glyphicon glyphicon-apple"></span> Alimentation</a></li>
+                   <li><a href="#7" data-toggle="tab2"> <span class="glyphicon glyphicon-scale"></span> Soins ,beauté & fitness</a></li>
+                   <li><a href="#8" data-toggle="tab2"> <span class="glyphicon glyphicon-lamp"></span> Maison & décorations </a></li>
+                   <li><a href="#9" data-toggle="tab2"><span class="glyphicon glyphicon-piggy-bank"></span> Mode enfants,bébé & jouets</a></li>
+                   <li><a href="#10" data-toggle="tab2"><span class="glyphicon glyphicon-phone"></span> i-TECH</a></li>
+                   <li><a href="#11" data-toggle="tab2"><span class="glyphicon glyphicon-th-large"></span> Toutes les catégories</a></li>
+              </ul>
+         </div>
+         
+       
+        <div class="slider">
+          <div class="slides">
+             <input type="radio" name="radio-btn" id="radio1">
+             <input type="radio" name="radio-btn" id="radio2">
+             <input type="radio" name="radio-btn" id="radio3">
+             <input type="radio" name="radio-btn" id="radio4">
+             <input type="radio" name="radio-btn" id="radio5">
+             <div class="slide first">
+               <img src="images/im1.jpg" alt="">
+             </div>
+             <div class="slide ">
+              <img src="images/im2.jpg" alt="">
+            </div>
+            <div class="slide ">
+              <img src="images/im3.jpg" alt="">
+            </div>
+            <div class="slide ">
+              <img src="images/im4.jpg" alt="">
+            </div>
+            <div class="slide ">
+              <img src="images/im5.jpg" alt="">
+            </div>
+          </div>
+
+           <div class="navigator-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+              <label for="radio5" class="manual-btn"></label>
+           </div>
+       </div>
+    </div>
+
+   
+  </div>
+
+
+  <div class="tab-pane" id="2">
+    <div class="container site">
+      <h2>Créer nouveau compte</h2>
+      <form >
+        <div class="form-group">
+          <label for="name">Nom:</label>
+          <input type="name" class="form-control" id="email" placeholder="Entrer votre nom" name="nom">
+        </div>
+        <div class="form-group">
+          <label for="prenom">Prénom:</label>
+          <input type="prenom" class="form-control" id="email" placeholder="Entrer votre prénom" name="prenom">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Entrer votre email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Mot de passe:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Entrer un mot de passe" name="pwd">
+        </div>
+        <div> <button type="submit"  class="btn btn-info">s'inscrire </button></div>
+        
+      </form>
+    </div>
+
+  </div>
+
+  <div class="tab-pane " id="3">
+    <div class="container site">
+      <h2>Connecter</h2>
+      <form>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Entrer votre email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Mot de passe:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Entrer votre mot de passe" name="pwd">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Se souvenir de moi</label>
+        </div>
+        <button type="submit" class="btn btn-info">connexion</button>
+      </form>
+    </div>
+  </div>
+  
+
+    
+ 
+  <div class="tab-pane" id="4">
+    <table>
+      <tr>
+          <th>Produit</th>
+          <th>Quantité</th>
+          <th>Total Partiel</th>
+      </tr>
+      <tr>
+          <td>
+              <div class="cart-MakeUp">
+                  <img src="images/starlena190700005.jpg">
+              <div>
+                  <p>Fond de teint Name</p>
+                  <small>Price : 70 DT</small>
+                  <br>
+                  <a href="">Supprimer</a>
+              </div>
+              </div>
+          </td>
+          <td><input type="number" value="1"></td>
+          <td>70 DT</td>
+      </tr>
+
+  </tr>
+    
+</tr>
+
+</tr>
+<tr>
+    <td>
+        <div class="cart-MakeUp">
+            <img src="images/10-Pinceaux-Maquillage-Sirene-Synthetique.jpg">
+        <div>
+            <p>Pinceaux</p>
+            <small>Price : 40 DT</small>
+            <br>
+            <a href="">Supprimer</a>
+        </div>
+        </div>
+    </td>
+    <td><input type="number" value="1"></td>
+    <td>40 DT</td>
+</tr>
+
+</tr>
+<tr>
+  <td>
+      <div class="cart-MakeUp">
+          <img src="images/ncef-eyes-texture-et-pot.jpg">
+      <div>
+          <p>ncef-eyes-filorga</p>
+          <small>Price : 135 DT</small>
+          <br>
+          <a href="">Supprimer</a>
+      </div>
+      </div>
+  </td>
+  <td><input type="number" value="1"></td>
+  <td>135 DT</td>
+</tr>
+  </table>
+
+  <div class="total-price">
+      <table>
+          <tr>
+              <td>Total Partiel</td>
+              <td>245 DT</td>
+          </tr>
+          <tr>
+              <td>Taxe</td>
+              <td>55 DT</td>
+          </tr>
+          <tr>
+              <td>Total</td>
+              <td>300 DT</td>
+          </tr>
+      </table>
+  </div>
+</div>
+
+   
+</section>
+
+<section class="contacter" class="container-fluid">
+    <h1>Des questions ?</h1>
+<h3>Contactez-nous !</h3>
+<h3>Nous vous répondrons rapidement et avec plaisir !</h3>
+
+<button type="button" class="btn btn-warning"> Envoyez-nous un message</button>
+
+</section>
+
+<footer class="container-fluid">
+<p> © Affichez inc. tous droits réservés.</p> 
+</footer>
+</body>
+</html>
